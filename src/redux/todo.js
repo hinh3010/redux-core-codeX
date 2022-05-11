@@ -18,7 +18,7 @@ export const setTodos = (payload) => ({
     payload: payload
 })
 
-// cách 3 tuy nhiên action creator chỉ return 1 {}
+// cách 3 + 4 tuy nhiên action creator chỉ return 1 {}
 // => cần middleware để nó return 1 hàm => store.js
 export const fetchTodos = () => async (dispatch) => {
     console.log(dispatch)
